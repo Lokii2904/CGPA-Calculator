@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="cgpal.css">
+</head>
+<body>
+    <div class="container">
+        <h2>GPA Calculator</h2>
+        <div class="input-section">
+            <input type="number" id="numSubjects" placeholder="Number of Subjects">
+            <button onclick="generateInputFields()">Generate Fields</button>
+        </div>
+        <div id="inputFields"></div>
+        <button onclick="calculateCGPA()">Calculate CGPA</button>
+        <h3 id="result"></h3>
+    </div>
+
+    <script src="cgpal.js"></script>
+</body>
+</html>

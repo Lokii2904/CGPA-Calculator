@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #ff66b3; /* Soft pink background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #b30059; /* A darker shade of pink for contrast */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-section, #inputFields div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+input[type=number], input[type=text] {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ff99c8; /* Light pink border for a cohesive look */
+    border-radius: 5px;
+    flex-grow: 1;
+    box-sizing: border-box;
+    background-color: #fff0f5; /* Very light pink, almost white, for input fields */
+    color: #b30059; /* Text color that matches the heading */
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px 5px 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff66b3; /* A vibrant pink for buttons */
+    color: white;
+    cursor: pointer;
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #e60073; /* A slightly darker pink on hover for better interaction feedback */
+}
+
+#result {
+    font-size: 20px;
+    color: #ff66b3; /* Matching vibrant pink for the result text */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    background: #fff0f5; /* Very light pink background for the container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 600px;
+}
